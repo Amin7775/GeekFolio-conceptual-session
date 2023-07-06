@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu_container{
+    display: flex;
+    color: white;
+    background-color: #424141;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.logo{
+    /* height: 50px; */
+    width: 140px;
+}
+
+.header_menu{
+    display: flex;
+    list-style: none;
+}
+
+.header_item{
+    font-size: 22px;
+    margin-right:20px ;
+    padding: 5px;
+}
+
+.header_item:hover{
+    font-size:25px;
+    color:cornsilk;
+    cursor: pointer;
+}
