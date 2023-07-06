@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu_container{
@@ -32,4 +33,44 @@
     font-size:25px;
     color:cornsilk;
     cursor: pointer;
+}
+
+.banner-container{
+    height: 100vh;
+    background: url(../images/background.png), linear-gradient(45deg, black,#2e2e2e);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-title{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.banner-description{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color:teal;
+    border: 2px solid #424141;
+}
+
+.btn:hover{
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px whitesmoke;
 }
