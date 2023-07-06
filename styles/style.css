@@ -74,3 +74,28 @@
     cursor: pointer;
     box-shadow: 1px 1px 10px whitesmoke;
 }
+
+
+.about-container{
+    display: flex;
+    height: 45vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-title{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.about-description{
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.about-main-title{
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 45px;
+}
+
